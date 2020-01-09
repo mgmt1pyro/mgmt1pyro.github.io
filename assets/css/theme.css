@@ -7303,6 +7303,8 @@ header.header {
     z-index: 10;
     width: 100vw;
     padding: 20px 6vw;
+    background: #fff;
+    z-index: 999;
     -webkit-transition: background-color 500ms ease;
     transition: background-color 500ms ease;
 }
@@ -7361,6 +7363,7 @@ header .button {
     font-size: 16px;
     line-height: 1;
     text-align: center;
+    color: #fff;
 }
 
 header .button.shadow-none {
