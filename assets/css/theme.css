@@ -6312,7 +6312,7 @@ article ol li ul li {
 
 .wy-nav-content-wrap {
     margin-left: 300px;
-    background: #fcfcfc;
+    background: #fff;
     min-height: 100%
 }
 
@@ -6460,13 +6460,9 @@ footer span.commit .rst-content tt,
 }
 
 @media screen and (min-width: 1100px) {
-    .wy-nav-content-wrap {
-        background: rgba(0, 0, 0, 0.05)
-    }
-
     .wy-nav-content {
         margin: 0;
-        background: #fcfcfc
+        background: #fff;
     }
 }
 
