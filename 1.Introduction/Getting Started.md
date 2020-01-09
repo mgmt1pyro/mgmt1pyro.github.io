@@ -3,8 +3,9 @@ layout: default
 published: true
 title: Getting Started
 order: 2
+@import "../assets/css/style"
 ---
-@import "../assets/css/style.css";
+
 # Getting Started
 
 The installation is quick and straightforward - install, configure input & scan.
