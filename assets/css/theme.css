@@ -6246,14 +6246,14 @@ article ol li ul li {
 
 .wy-nav-side {
     position: fixed;
-    top: 0;
+    top: 78px;
     bottom: 0;
     left: 0;
     padding-bottom: 2em;
     width: 300px;
     overflow-x: hidden;
     overflow-y: hidden;
-    min-height: 100%;
+    min-height: calc(100vh - 78px);
     color: #9b9b9b;
     background: #343131;
     z-index: 200
