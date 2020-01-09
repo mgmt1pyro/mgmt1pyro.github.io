@@ -4,9 +4,22 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+python-hcl2 = "*"
+pytest = "*"
+coverage ="*"
+coverage-badge = "*"
+detect-secrets = "*"
+pipenv-setup = "*"
+GitPython = "*"
 
 [packages]
-mkdocs = "*"
+python-hcl2 = "*"
+detect-secrets = "*"
+tabulate = "*"
+colorama="*"
+termcolor="*"
+junit-xml ="*"
+checkov = {editable = true,path = "."}
 
 [requires]
-python_version = "3"
+python_version = "3.7"
