@@ -26,7 +26,7 @@
 
   {%- if site.google_analytics %}{% include ganalytics.html %}{% endif %}
 </head>
-
+{% include header.html %}
 <body class="wy-body-for-nav" role="document">
 
   <div class="wy-grid-for-nav">
@@ -73,6 +73,7 @@
   <script src="{{ 'assets/js/modernizr-2.8.3.min.js' | absolute_url }}" defer></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
   <script src="{{ 'assets/js/theme.js' | absolute_url }}" defer></script>
+  <script src="{{ 'assets/js/script.js' | absolute_url }}" defer></script>
   <script type="text/javascript" defer>
     hljs.initHighlightingOnLoad();
     window.addEventListener('load', function() {
