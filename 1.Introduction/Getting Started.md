@@ -3,7 +3,6 @@ layout: default
 published: true
 title: Getting Started
 order: 2
-@import "../assets/css/style.css"
 ---
 
 # Getting Started
